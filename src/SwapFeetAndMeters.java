@@ -36,8 +36,7 @@ public class SwapFeetAndMeters {
 
     public static double footToMeter(double foot) {
         final double FOOT_TO_MET = 0.305;
-        double meter = FOOT_TO_MET * foot;
-        return meter;
+        return FOOT_TO_MET * foot;
     }
 
     /**
@@ -45,8 +44,7 @@ public class SwapFeetAndMeters {
      **/
     public static double meterToFoot(double meter) {
         final double MET_TO_FOOT = 3.279;
-        double foot = MET_TO_FOOT * meter;
-        return foot;
+        return MET_TO_FOOT * meter;
 
     }
 }
